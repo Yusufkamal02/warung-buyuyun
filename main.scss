@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Lato:wght@400;700;900&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,700;6..12,900&family=Poppins&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Lato:wght@400;700;900&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,700;6..12,900&family=Poppins:ital,wght@0,300;0,400;1,500&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Lato:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;700&family=Lato:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+* {
+  font-family: 'Inter', sans-serif;
+  font-family: "Poppins" sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navbar {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+
+.hero {
+  .containe {
+    .row {
+      .col-lg-12 {
+        p {
+          font-size: 27px;
+          font-weight: 500;
+          margin-bottom: 100px;
+        }
+      }
+    }
+  }
+}
+
+.container {
+  .row {
+    .col-lg-12 {
+      .carousel {
+        .carousel-inner {
+          margin-bottom: 50px;
+          margin-left: 80px;
+          .carousel-item {
+            .row {
+              .col-2 {
+                margin-top: 50px;
+                width: 243px;
+                height: 276px;
+                margin-right: 60px;
+                .menu-item {
+                  text-align: center;
+                  margin: auto;
+                  height: 100%;
+                  img {
+                    width: 126px;
+                    height: 126px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#rate {
+  .container {
+    h2 {
+      font-size: 43px;
+      font-weight: 800;
+    }
+
+    p {
+      font-size: 27px;
+      font-weight: 500;
+    }
+
+    .col-md-12 {
+      img {
+        margin-top: 100px;
+      }
+      .row {
+        .col-4 {
+          .btn {
+            margin-left: 120px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
