@@ -10,50 +10,25 @@
   text-decoration: none;
 }
 
-.navbar {
-  z-index: 999;
-  position: fixed;
-  width: 100%;
+body {
+  height: 9999px;
 }
 
-.hero .containe .row .col-lg-12 p {
-  font-size: 27px;
-  font-weight: 500;
-  margin-bottom: 100px;
+.hero .container .row .col-lg-12 .w-75 {
+  margin-top: -400px;
 }
 
-.container .row .col-lg-12 .carousel .carousel-inner {
-  margin-bottom: 50px;
-  margin-left: 80px;
+#rate .container {
+  margin-top: 200px;
 }
-.container .row .col-lg-12 .carousel .carousel-inner .carousel-item .row .col-2 {
-  margin-top: 50px;
-  width: 243px;
-  height: 276px;
-  margin-right: 60px;
+#rate .container .row .col-4 .btn {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.container .row .col-lg-12 .carousel .carousel-inner .carousel-item .row .col-2 .menu-item {
-  text-align: center;
-  margin: auto;
-  height: 100%;
-}
-.container .row .col-lg-12 .carousel .carousel-inner .carousel-item .row .col-2 .menu-item img {
-  width: 126px;
-  height: 126px;
-}
-
-#rate .container h2 {
-  font-size: 43px;
-  font-weight: 800;
-}
-#rate .container p {
-  font-size: 27px;
-  font-weight: 500;
-}
-#rate .container .col-md-12 img {
+#rate .navbar .container-fluid .d-flex {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 100px;
-}
-#rate .container .col-md-12 .row .col-4 .btn {
-  margin-left: 120px;
-  margin-top: 20px;
+  gap: 10px;
 }/*# sourceMappingURL=main.css.map */

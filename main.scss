@@ -10,53 +10,17 @@
   text-decoration: none;
 }
 
-.navbar {
-  z-index: 999;
-  position: fixed;
-  width: 100%;
+body {
+  height: 9999px;
 }
 
 .hero {
-  .containe {
+  .container {
     .row {
       .col-lg-12 {
-        p {
-          font-size: 27px;
-          font-weight: 500;
-          margin-bottom: 100px;
-        }
-      }
-    }
-  }
-}
-
-.container {
-  .row {
-    .col-lg-12 {
-      .carousel {
-        .carousel-inner {
-          margin-bottom: 50px;
-          margin-left: 80px;
-          .carousel-item {
-            .row {
-              .col-2 {
-                margin-top: 50px;
-                width: 243px;
-                height: 276px;
-                margin-right: 60px;
-                .menu-item {
-                  text-align: center;
-                  margin: auto;
-                  height: 100%;
-                  img {
-                    width: 126px;
-                    height: 126px;
-                  }
-                }
-              }
-            }
-          }
-        }
+        .w-75 {
+          margin-top: -400px;
+        }   
       }
     }
   }
@@ -64,27 +28,27 @@
 
 #rate {
   .container {
-    h2 {
-      font-size: 43px;
-      font-weight: 800;
-    }
+    margin-top: 200px;
 
-    p {
-      font-size: 27px;
-      font-weight: 500;
-    }
-
-    .col-md-12 {
-      img {
-        margin-top: 100px;
-      }
-      .row {
-        .col-4 {
-          .btn {
-            margin-left: 120px;
-            margin-top: 20px;
-          }
+    .row {
+      .col-4 {
+        .btn {
+          margin-top: 30px;
+          margin-left: auto;
+          margin-right: auto;
         }
+      }
+    }
+  }
+
+  .navbar {
+    .container-fluid {
+      .d-flex {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        gap: 10px;
+        .form-control {}
       }
     }
   }
